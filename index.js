@@ -1,4 +1,6 @@
-function takeANumber(lineNumber) {
+var lineNumber = 0;
+
+function takeANumber() {
   lineNumber++
   return `You are number ${lineNumber} in line.`
 }
