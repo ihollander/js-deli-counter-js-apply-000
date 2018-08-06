@@ -1,7 +1,6 @@
-function takeANumber(line, newCustomer) {
-  line.push(newCustomer)
-  var position = line.length
-  return `Welcome, ${newCustomer}. You are number ${position} in line.`
+function takeANumber(lineNumber) {
+  lineNumber++
+  return `You are number ${lineNumber} in line.`
 }
 
 function nowServing(line) {
